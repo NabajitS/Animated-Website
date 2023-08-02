@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.card-div {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background: #fff;
+    color: hsl(233, 13%, 49%);
+    border-radius: 0.8rem;
+    font-family: 'Montserrat';
+    width: 340px;
+    display: flex;
+    justify-content: center;
+}
+
+.card.card-1 {
+    background: linear-gradient(135deg,
+            rgba(163, 168, 240, 1) 0%,
+            rgba(105, 111, 221, 1) 100%);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+ul {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+ul li.price {
+    font-size: 3rem;
+    color: hsl(232, 13%, 33%);
+    padding-bottom: 2rem;
+}
+
+.shadow {
+    box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.1);
+}
+
+.card.card-1 .price {
+    color: #fff;
+}
+
+.btn {
+    margin-top: 1rem;
+    height: 2.6rem;
+    width: 13.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: linear-gradient(135deg,
+            rgba(163, 168, 240, 1) 0%,
+            rgba(105, 111, 221, 1) 100%);
+    color: #fff;
+    outline: none;
+    border: 0;
+    font-weight: bold;
+}
+
+.active-btn {
+    background: #fff;
+    color: hsl(237, 63%, 64%);
+}
+
+.card .bottom-bar {
+    border-bottom: 2px solid hsla(240, 8%, 85%, 0.253);
+}
+
+.card.card-2 {
+    background: linear-gradient(135deg,
+            rgba(0, 192, 202, 1) 0%,
+            rgba(0, 102, 108, 1) 100%);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    transform: scale(1.1);
+    z-index: 1;
+}
